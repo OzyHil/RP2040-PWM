@@ -7,9 +7,9 @@ const uint16_t WRAP_PERIOD = 20000; // Período do PWM para 50Hz
 const float PWM_DIVISER = 125.0f;   // Divisor de clock do PWM
 
 // Definição dos valores de PWM para o servo
-const uint16_t MIN_DUTY = 500;  // Pulso de 1ms (posição 0°)
-const uint16_t MAX_DUTY = 2400; // Pulso de 2ms (posição 180°)
-const uint16_t MID_DUTY = 1470; // Pulso de 1.5ms (posição central 90°)
+const uint16_t MIN_DUTY = 500;  // Pulso de 0.5ms (posição 0°)
+const uint16_t MAX_DUTY = 2400; // Pulso de 2,4ms (posição 180°)
+const uint16_t MID_DUTY = 1470; // Pulso de 1.47ms (posição central 90°)
 
 // Parâmetros da movimentação suave
 const int STEP_SIZE = 5;   // Incremento do ciclo ativo em microssegundos
